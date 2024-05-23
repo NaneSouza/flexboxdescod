@@ -1,0 +1,199 @@
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 90vw;
+/* margin: 1rem 8rem 5rem 10rem; */
+
+
+}
+
+header{
+    height: 10vh;
+    width: 60vw;
+    background-color: #2893FB;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem 2rem 1rem 2rem;
+    text-align: left;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.5rem #2171C7;
+    margin: 0.5rem;
+
+    @media (min-width: 320px) and (max-width: 768px) {
+        width: 90vw;
+        height: auto;
+        margin: 2rem 1rem 0.5rem 3rem;
+        font-size: 0.7rem;
+
+      }
+}
+
+    
+
+
+
+
+
+main{
+    display: flex;    
+    flex-grow: 1;
+    width: 60vw;
+    height: 80vh;
+
+
+    @media (min-width: 320px) and (max-width: 768px) {
+        width: 80vw;
+        height: auto;
+        
+      }
+}
+    
+    .conteudomain{
+      
+        display: flex;
+        flex-direction: column;
+         /* justify-content: center;
+         align-items: center; */
+        /* padding: 0.5rem; */
+        width: 55vw;
+        height: 72vh;
+        background-color: #41B272;
+        margin: 0.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.2rem 0.5rem #3D7C5D;
+        
+        
+        @media (min-width: 320px) and (max-width: 768px) {
+            width: 70vw;
+            height: 80vh;
+            
+          }
+    }
+
+    .titlemain{
+       
+        margin: 1rem 0.5rem 0.2rem 1.3rem;
+        color: #fff;
+        font-weight: bold;
+        padding: 0rem 0rem 0 1rem;
+         
+        @media (min-width: 320px) and (max-width: 768px) {
+            margin: 1rem 0.5rem 0.2rem 0.5rem;
+            font-size: 0.7rem;
+          }
+
+    }
+
+
+    .itemelements{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: center;
+        /* padding: 1rem; */
+        width: 37vw;
+        height: 65vh;
+        background-color: #41B272;
+        margin: 1rem 1rem 1rem 1rem;
+        border-radius: 0.5rem;
+      
+
+        @media (min-width: 320px) and (max-width: 768px) {
+           
+            width: 58vw;
+            height: 80vh;
+            font-size: 0.7rem;
+            margin: 1rem 2rem 1rem 1rem;
+          }
+
+    }
+
+   
+
+
+    .item{
+        background-color: #2f8d59;
+        color: #fff;
+        font-weight: bold;
+        margin: 0.5rem;
+        width: 8vw;
+        height: 7.5vw;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.2rem 0.5rem #226741;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media (min-width: 320px) and (max-width: 768px) {
+           
+            width: 9vw;
+            height: 7vh;
+            border-radius: 0.5rem;
+            box-shadow: 0 0.2rem 0.5rem #226741;
+            font-size: 0.7rem;
+            padding: 0.5rem;
+            }
+
+
+
+    }
+
+    .sidebar{
+        background-color: #FC644D;
+        color: #fff;
+        font-weight: bold;
+        width: 17vw;
+        height: 72vh;
+        padding: 1rem 0.5rem 0.2rem 1.3rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.2rem 0.5rem #CF2213;
+        margin: 0.5rem;
+
+        @media (min-width: 320px) and (max-width: 768px) {
+
+            width: 15vw;
+            height: 80vh;
+            font-size: 0.7rem;
+            padding: 1rem 1rem 0 0.2rem;
+            margin: 0.5rem 0 0 0;
+            
+          }
+        
+        
+        
+    }
+
+    footer{
+        width: 60vw;
+        height: 10vw;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-color: #446EDE;
+        color: #fff;
+        font-weight: bold;
+        padding: 1rem 2rem 1rem 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.2rem 0.5rem #334B97;
+        margin: 0.5rem;
+
+
+        @media (min-width: 320px) and (max-width: 768px) {
+            width: 90vw;
+            height: auto;
+            margin: 0.5rem 1rem 0.5rem 3rem;
+            font-size: 0.7rem;
+          }
+    }
+    
+    
